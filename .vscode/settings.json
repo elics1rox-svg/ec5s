@@ -1,0 +1,4 @@
+{
+  "livePreview.defaultPreviewPath": "http://localhost:3000",
+  "livePreview.notifyOnAutoRefresh": true
+}
