@@ -28,6 +28,9 @@ export default function Home() {
             <Link href="/filters" className="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-100">
               Open filter builder
             </Link>
+            <Link href="/feed" className="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-100">
+              View public feed
+            </Link>
           </div>
         </div>
 
@@ -61,6 +64,21 @@ export default function Home() {
           {featured.map((asset) => (
             <MarketCard key={asset.symbol} asset={asset} />
           ))}
+        </div>
+
+        <div className="mt-8 grid gap-4 md:grid-cols-3">
+          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+            <p className="text-sm font-semibold text-slate-900">Recovery setups</p>
+            <p className="mt-1 text-sm text-slate-600">Monitor assets with repeated rebound behavior.</p>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+            <p className="text-sm font-semibold text-slate-900">Momentum movers</p>
+            <p className="mt-1 text-sm text-slate-600">Track 5-10% moves that still hold above the 52-day average.</p>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+            <p className="text-sm font-semibold text-slate-900">Volume leaders</p>
+            <p className="mt-1 text-sm text-slate-600">Surface the highest-participation names in a single view.</p>
+          </div>
         </div>
       </section>
 

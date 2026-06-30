@@ -13,6 +13,9 @@ export interface MarketAsset {
   lookback3m: number;
   lookback5m: number;
   recoveryCount: number;
+  followers: number;
+  likeCount: number;
+  dislikeCount: number;
   notes: string;
 }
 

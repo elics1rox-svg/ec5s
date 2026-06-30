@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const navItems = [
   { href: "/", label: "Dashboard" },
+  { href: "/feed", label: "Feed" },
   { href: "/market", label: "Market" },
   { href: "/filters", label: "Filters" },
   { href: "/watchlist", label: "Watchlist" },

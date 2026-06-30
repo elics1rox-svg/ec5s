@@ -14,6 +14,9 @@ export const marketAssets: MarketAsset[] = [
     lookback3m: 24.1,
     lookback5m: 7.6,
     recoveryCount: 3,
+    followers: 128_000,
+    likeCount: 840,
+    dislikeCount: 73,
     notes: "Momentum remains strong with breakout volume.",
   },
   {
@@ -29,6 +32,9 @@ export const marketAssets: MarketAsset[] = [
     lookback3m: 18.9,
     lookback5m: -4.7,
     recoveryCount: 2,
+    followers: 94_000,
+    likeCount: 530,
+    dislikeCount: 61,
     notes: "Still above its 52-day average after a sharp pullback.",
   },
   {
@@ -44,6 +50,9 @@ export const marketAssets: MarketAsset[] = [
     lookback3m: 22.4,
     lookback5m: 9.6,
     recoveryCount: 4,
+    followers: 312_000,
+    likeCount: 1040,
+    dislikeCount: 128,
     notes: "High-volume breakout after a volatile rebound.",
   },
   {
@@ -59,6 +68,9 @@ export const marketAssets: MarketAsset[] = [
     lookback3m: 16.7,
     lookback5m: -6.2,
     recoveryCount: 2,
+    followers: 67_000,
+    likeCount: 320,
+    dislikeCount: 47,
     notes: "A defensive move that remains above its 52-day average.",
   },
   {
@@ -74,6 +86,9 @@ export const marketAssets: MarketAsset[] = [
     lookback3m: 13.4,
     lookback5m: 6.3,
     recoveryCount: 3,
+    followers: 48_000,
+    likeCount: 199,
+    dislikeCount: 29,
     notes: "Price action is showing a strong rate-sensitive rebound.",
   },
 ];

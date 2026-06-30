@@ -1,3 +1,4 @@
+import { FilterChipList } from "@/components/filter-chip-list";
 import type { MarketAsset } from "@/types/market";
 
 function formatVolume(value: number) {
@@ -46,6 +47,12 @@ export function MarketCard({ asset }: { asset: MarketAsset }) {
       </div>
 
       <p className="mt-4 text-sm text-slate-600">{asset.notes}</p>
+      <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-slate-600">
+        <span className="rounded-full bg-slate-50 px-2.5 py-1">👥 {asset.followers.toLocaleString()} followers</span>
+        <span className="rounded-full bg-slate-50 px-2.5 py-1 text-emerald-600">👍 {asset.likeCount}</span>
+        <span className="rounded-full bg-slate-50 px-2.5 py-1 text-rose-600">👎 {asset.dislikeCount}</span>
+      </div>
+      <FilterChipList asset={asset} />
     </article>
   );
 }
